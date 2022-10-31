@@ -259,7 +259,11 @@ _ = model.fit(
 
 plt.figure("HelloWorld", figsize=(10, 10),)
 for n, i in enumerate(x_list):
+<<<<<<< HEAD
     # a = tf.keras.utils.array_to_img(i)
+=======
+    # a = tf.keras.utils.array_to_img(i)///
+>>>>>>> 294f17211242030641ed8073f08210004168c472
     plt.subplot(3, 4, n+1)
     plt.title(n+1)
     plt.imshow(i)
