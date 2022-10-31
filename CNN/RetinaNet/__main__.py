@@ -367,7 +367,7 @@ def FPN50(): # ResNet-50
 class RetinaNet(nn.Module):
     num_anchors = 9
 
-    def __init__(self, num_classes=20):  # 20
+    def __init__(self, num_classes=1):  # 20
         super().__init__()
         self.fpn = FPN50()
         self.num_classes = num_classes
